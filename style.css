@@ -608,58 +608,166 @@ button:hover
 }
 
 /* Testimonial Section */
-#testimonial-section
-{
+#testimonial-section {
   height: 600px;
   background-color: #FEE3E3;
   padding-top: 125px;
+  text-align: center;
+  margin-bottom: 258px;
 }
-#testimonial-section p.testimonialP
-{
+
+#testimonial-section p.testimonialP {
   font-weight: 300;
   font-size: 45px;
   line-height: 49.5px;
   text-align: center;
   margin-bottom: 60px;
 }
-#testimonial-section .container .box1
-{
+
+#testimonial-section .container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+#testimonial-section .container .box1 {
   width: 378px;
   height: 605px;
   padding: 16px;
+  
   background-color: #FFFAFA;
-  /* margin-bottom: 40px; */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  /* border-radius: 10px; */
 }
-#testimonial-section .container .box1 img
-{
-  margin-bottom: 40px;
-}
-#testimonial-section .container .box1 .stars
-{
-  text-align: center;
+
+#testimonial-section .container .box1 img {
+  /* width: 100%;
+  height: auto; */
+  width: 346px;
+  height: 300px;
   margin-bottom: 20px;
 }
-#testimonial-section .container .box1 .starP
-{
+
+#testimonial-section .container .box1 .stars {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+#testimonial-section .container .box1 .stars i {
+  /* color: gold; */
+  font-size: 20px;
+}
+
+#testimonial-section .container .box1 .starP {
   font-weight: 300;
   font-size: 16px;
   line-height: 27px;
   text-align: center;
+  margin-bottom: 0;
 }
-#testimonial-section .container .gap1
-{
-  margin-right: 30px;
-}
-#testimonial-section .testimonialBtn
-{
+
+.testimonialBtn {
+  margin-top: 20px;
   padding: 14px 30px;
   border-radius: 30px;
   background: transparent;
+  border: 2px solid black;
   font-weight: 400;
   font-size: 14px;
-  line-height: 15.4px;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+  margin-bottom: 120px;
 }
-#testimonial-section .testimonialBtn:hover
+
+ .testimonialBtn:hover {
+  background: black;
+  color: white;
+}
+
+/* White Background Section to Fix the Issue */
+.white-bg {
+  height: 200px; /* Adjust the height as needed */
+  background-color: white;
+}
+
+/* Follow Us Section */
+#followUS { 
+  text-align: center;
+}
+
+#followUS .followUsP { 
+  font-weight: 300;
+  font-size: 45px;
+  line-height: 65px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+#followUS .container { /* Fixed the ID case */
+  display: flex;
+  flex-direction: column;
+  align-items: center;  /* Centers content horizontally */
+  justify-content: center; /* Centers content vertically (if needed) */
+  text-align: center;
+}
+
+#followUS .a { /* Fixed the ID case */
+  display: block;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 18.7px;
+  margin: auto;
+  color: #FDB9B9;
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+#followUS .images { /* Fixed the ID case */
+  width: 100%;
+  display: flex;
+  justify-content: space-around; /* Centers images horizontally */
+  align-items: center; /* Aligns images vertically */
+  gap: 15px; /* Adjust space between images */
+  flex-wrap: wrap; /* Ensures responsiveness */
+  padding: 0 13px;
+  padding-bottom: 10px;
+}
+
+/* Footer Section */
+footer
 {
-  background: #000;
+  height: 280px;
+  background-color: #FDB9B9;
+  /* padding: 80px; */
+  margin-bottom: 0;
+}
+footer ul
+{
+  display: flex;
+  list-style: none;
+}
+footer .container  ul li
+{
+  margin-right: 16px;
+}
+footer .container .row .navs ul li a
+{
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 16.5px;
+  color: #303030;
+}
+footer .container .row .social-icons ul li a i
+{
+  width: 14.03px;
+  height: 11.16px;
+  line-height: 16.5px;
+  color: #303030;
+}
+footer .footerP
+{
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 16.5px;
+  color: #303030;
 }
