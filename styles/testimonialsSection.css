@@ -1,0 +1,150 @@
+/* Testimonial Section */
+#testimonial-section {
+    height: 600px;
+    background-color: #FEE3E3;
+    padding-top: 125px;
+    text-align: center;
+    margin-bottom: 258px;
+  }
+  
+  #testimonial-section p.testimonialP {
+    font-weight: 300;
+    font-size: 45px;
+    line-height: 49.5px;
+    text-align: center;
+    margin-bottom: 60px;
+  }
+  
+  #testimonial-section .container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+  
+  #testimonial-section .container .box1 {
+    width: 378px;
+    height: 605px;
+    padding: 16px;
+    
+    background-color: #FFFAFA;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+    /* border-radius: 10px; */
+  }
+  
+  #testimonial-section .container .box1 img {
+    /* width: 100%;
+    height: auto; */
+    width: 346px;
+    height: 300px;
+    margin-bottom: 20px;
+  }
+  
+  #testimonial-section .container .box1 .stars {
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  
+  #testimonial-section .container .box1 .stars i {
+    /* color: gold; */
+    font-size: 20px;
+  }
+  
+  #testimonial-section .container .box1 .starP {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 27px;
+    text-align: center;
+    margin-bottom: 0;
+  }
+  
+  .testimonialBtn {
+    margin-top: 20px;
+    padding: 14px 30px;
+    border-radius: 30px;
+    background: transparent;
+    border: 2px solid black;
+    font-weight: 400;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    margin-bottom: 120px;
+  }
+  
+   .testimonialBtn:hover {
+    background: black;
+    color: white;
+  }
+  
+
+
+/* Styles for smaller desktops */
+@media screen and (max-width: 1440px)
+{
+  #testimonial-section {
+    height: 600px;
+    padding-top: 125px;
+    margin-bottom: 258px;
+  }
+  
+  #testimonial-section p.testimonialP {
+    font-size: 40px;
+    line-height: 47px;
+    margin-bottom: 60px;
+  }
+  
+  #testimonial-section .container {
+    gap: 10px;
+  }
+  
+  #testimonial-section .container .box1 {
+    width: 33%;
+    height: auto;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  #testimonial-section .container .box1 img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+  }
+  
+  #testimonial-section .container .box1 .stars {
+    margin-bottom: 5px;
+  }
+
+  #testimonial-section .container .box1 .stars i {
+    font-size: 17px;
+  }
+  
+  #testimonial-section .container .box1 .starP {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  
+  .testimonialBtn {
+    margin-top: 20px;
+    padding: 14px 30px;
+    border-radius: 30px;
+    background: transparent;
+    border: 2px solid black;
+    font-weight: 400;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    margin-bottom: 120px;
+  }
+}
+
+
+/* Styles for Tablets */
+@media screen and (max-width: 960px)
+{
+  
+}
+
+
+/* Styles for Mobiles */
+@media screen and (max-width: 576px)
+{
+
+}

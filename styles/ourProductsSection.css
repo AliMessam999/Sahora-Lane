@@ -1,0 +1,119 @@
+/* Our-Products Section */
+#ourProducts
+{
+  background-color: #FDB9B9;
+  max-height: 600px;
+  padding: 0 203px;
+  padding-top: 120px;
+  margin-bottom: 350px; /* Add this */
+
+}
+#ourProducts .container p.heading
+{
+  font-weight: 300;
+  font-size: 45px;
+  line-height: 49.5px;
+  text-align: center;
+}
+#ourProducts .container .product
+{
+  width: 33%;
+  height: 517px;
+}
+#ourProducts .container .product p
+{
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 22px;
+}
+#ourProducts .container .product p b
+{
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 20px;
+}
+#ourProducts .container .product img
+{
+  width: 100%;
+  height: 460px;
+  margin-bottom: 10px;
+}
+#ourProducts .container .exloreButton
+{
+  text-align: center;
+  margin-top: 40px;
+  padding: 14px 30px;
+  border-radius: 30px;
+  background-color: transparent;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 15.4px;
+  /* margin-bottom: 133px; */
+}
+#ourProducts .container .exloreButton:hover
+{
+  background: #000;
+}
+
+
+
+/* Styles for smaller desktops */
+@media screen and (max-width: 1440px)
+{
+  #ourProducts
+  {
+    max-height: 350px;
+    padding-top: 50px;
+    margin-bottom: 350px; /* Add this */
+
+  }
+  #ourProducts .container p.heading
+  {
+    font-size: 40px;
+    line-height: 47px;
+  }
+  #ourProducts .container .product
+  {
+    width: 33%;
+    height: 430px;
+    gap: 10px;
+    /* padding-bottom: 10px; */
+    /* margin-bottom: 10px; */
+  }
+  #ourProducts .container .product p
+  {
+    font-size: 14px;
+    line-height: 18px;
+    margin: 0;
+  }
+  #ourProducts .container .product p b
+  {
+    font-size: 14px;
+    line-height: 18px;
+  }
+  #ourProducts .container .exloreButton
+  {
+    margin-top: 0;
+    padding: 14px 30px;
+    font-size: 12px;
+    line-height: 13px;
+  }
+  #ourProducts .container .product img
+  {
+    width: 100%;
+    height: 330px;
+    margin-bottom: 10px;
+  }
+}
+
+/* Styles for Tablets */
+@media screen and (max-width: 960px)
+{
+  }
+
+
+/* Styles for Mobiles */
+@media screen and (max-width: 576px)
+{
+
+}

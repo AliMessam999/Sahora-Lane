@@ -1,0 +1,136 @@
+/* Growing Love Section */
+#growingLove-section
+{
+  margin-top: 120px;
+  padding-bottom: 120px;
+  background-color: white;
+}
+#growingLove-section .container
+{
+  min-height: 600px;
+  background-color: #F5F5F5;
+  border: 1px solid black;
+}
+#growingLove-section .container .text-area
+{
+  padding: 120px 80px;
+  max-height: 600px;
+}
+#growingLove-section .container .imageArea
+{
+  max-height: 600px;
+}
+#growingLove-section .container .imageArea img
+{
+  height: 600px;
+}
+
+#growingLove-section .container .row .text-area .p1
+{
+  font-weight: 300px;
+  font-size: 40px;
+  line-height: 65px;
+  margin-bottom: 20px;
+}
+#growingLove-section .container .p2
+{
+  font-weight: 300px;
+  font-size: 16px;
+  line-height: 27px;
+  margin-bottom: 35px;
+}
+#growingLove-section .container .growingLoveBtn
+{
+  width: 140px;
+  height: 42px;
+  border-radius: 140px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 15.4px;
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+
+
+/* Styles for smaller desktops */
+@media screen and (max-width: 1440px)
+{
+  #growingLove-section
+  {
+    margin-top: 90px;
+    padding-bottom: 100px;
+  }
+  #growingLove-section .container .imageArea img
+  {
+    height: 600px;
+  }
+
+  #growingLove-section .container .row .text-area .p1
+  {
+    font-size: 40px;
+    line-height: 47px;
+    margin-bottom: 20px;
+  }
+  #growingLove-section .container .p2
+  {
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 35px;
+  }
+  #growingLove-section .container .growingLoveBtn
+  {
+    width: 130px;
+    height: 40px;
+    font-size: 12px;
+    line-height: 13px;
+    margin-bottom: 30px;
+  }
+}
+
+/* Styles for OverFlowingData */
+@media screen and (max-width: 991px)
+{
+  #growingLove-section
+  {
+    margin-top: 70px;
+    padding-bottom: 100px;
+  }
+  #growingLove-section .container .imageArea img
+  {
+    height: 600px;
+  }
+
+  #growingLove-section .container .row .text-area .p1
+  {
+    font-size: 35px;
+    line-height: 45px;
+    margin-bottom: 10px;
+  }
+  #growingLove-section .container .p2
+  {
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 25px;
+  }
+  #growingLove-section .container .growingLoveBtn
+  {
+    width: 130px;
+    height: 40px;
+    font-size: 12px;
+    line-height: 11px;
+    margin-bottom: 25px;
+  }
+}
+/* Styles for Tablets */
+@media screen and (max-width: 960px)
+{
+  
+}
+
+
+/* Styles for Mobiles */
+@media screen and (max-width: 576px)
+{
+
+}

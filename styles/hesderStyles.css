@@ -1,0 +1,116 @@
+/* Header Section */
+header
+{
+  background-color: #fdb9b9;
+}
+.nav-links ul {
+    display: flex;
+    justify-content: flex-end;
+  }
+  header .container {
+    border-bottom: 1px solid white;
+    justify-content: space-between;
+    margin: auto;
+    padding: 0;
+  }
+  .logo
+  {
+    margin: 0;
+    padding: 0;
+  }
+  header ul {
+    padding: 0;
+  }
+  header ul li {
+    display: inline-block;
+    margin: 0;
+    padding-top: 65px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 15.4px;
+  }
+  .contactUs {
+    margin-right: 0;
+    background: transparent;
+    padding: 14px 30px;
+    gap: 10px;
+    border-radius: 200px;
+    min-width: 143px;
+    min-height: 41px;
+    font-size: 13px;
+    line-height: 14.3px;
+    font-weight: 400;
+    text-align: center;
+    cursor: pointer;
+  }
+  nav {
+    padding: 0; /* Ensures nav and badge are close but not overlapping */
+    margin: 0;
+  }
+  ul li a {
+    color: black;
+  }
+  .badge {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: lightgray;
+    padding: 10px;
+    padding-right: 0;
+    margin-right: 0;
+    border-radius: 10px;
+  }
+  .badge ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .badge ul li {
+    margin: 0 0;
+    padding: 0;
+  }
+  .badge ul li a {
+    color: black;
+    opacity: 40%;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 14.3px;
+  }
+  .badge ul li a:hover {
+    text-decoration: underline;
+  }
+  
+/* Styles for smaller desktops */
+@media screen and (max-width: 1440px)
+{
+  header ul li {
+    font-size: 13px;
+    line-height: 14px;
+  }
+  .contactUs {
+    padding: 12px 28px;
+    min-width: 135px;
+    min-height: 36px;
+    font-size: 12px;
+    line-height: 12px;
+  }
+  .badge ul li a {
+    font-size: 12px;
+    line-height: 12px;
+  }
+}
+
+
+/* Styles for Tablets */
+@media screen and (max-width: 960px)
+{
+  header
+  {
+  }
+}
+/* Styles for Mobiles */
+@media screen and (max-width: 576px)
+{
+
+}

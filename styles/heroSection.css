@@ -1,0 +1,147 @@
+/* hero-section */
+
+#hero-section
+{
+    background: linear-gradient(to bottom, #fdb9b9, white 100vh);
+}
+.hero-content
+{
+  margin: 0;
+  padding: 0;
+  margin-top: 194px;
+}
+.hero-content .h6
+{
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+  font-size: 50px;
+  line-height: 65px;
+  margin-bottom: 16px;
+  margin-right: 57px;
+}
+.hero-content p
+{
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 27px;
+  margin-bottom: 30px;
+  /* margin-right: 57px; */
+}
+.hero-content .shopNowBtn
+{
+  font-family: "Inter", sans-serif;
+  padding: 14px 30px;
+  background-color: transparent;
+  border-radius: 30px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 15.4px;
+  text-align: center;
+  cursor: pointer;
+}
+button:hover
+{
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+.hero-content .shopNowBtn:hover
+{
+  background-color: black;
+  color: white;
+}
+.line
+{
+  width: 102px;
+  height: 2px;
+  border-bottom: 1px solid #333333;
+  margin-top: 180px;
+}
+.line.active
+{
+  width: 102px;
+  height: 4px;
+  border-bottom: 2px solid #333333;
+  margin-top: 178px;
+  margin-bottom: 205px;
+}
+.hero-img
+{
+  margin-top: 110px;
+  margin-bottom: 160px;
+}
+
+
+/* Styles for smaller desktops */
+@media screen and (max-width: 1440px)
+{
+    .hero-content
+    {
+      margin-top: 170px;
+    }
+    #hero-section .container
+    {
+      max-width: 85%;
+    }
+    .hero-content .h6
+    {
+      font-size: 44px;
+      line-height: 50px;
+      margin-bottom: 12px;
+    }
+    .hero-content p
+    {
+      font-size: 14px;
+      line-height: 25px;
+      margin-bottom: 12px;
+    }
+    .hero-content .shopNowBtn
+    {
+      padding: 14px 30px;
+      font-size: 12px;
+      line-height: 13px;
+    }
+    .line
+    {
+      width: 102px;
+      height: 2px;
+      border-bottom: 1px solid #333333;
+      margin-top: 200px;
+    }
+    .line.active
+    {
+      width: 102px;
+      height: 4px;
+      border-bottom: 2px solid #333333;
+      margin-top: 198.4px;
+      margin-bottom: 205px;
+    }
+    .hero-img
+    {
+      margin-top: 50px;
+      margin-bottom: 140px;
+    }
+}
+@media screen and (max-width: 1097px)
+{
+  .hero-content
+  {
+    margin-top: 150px;
+  }
+  .hero-img
+  {
+    margin-top: 30px;
+    margin-bottom: 140px;
+  }
+}
+/* Styles for Tablets */
+@media screen and (max-width: 960px)
+{
+  
+}
+/* Styles for Mobiles */
+@media screen and (max-width: 576px)
+{
+ 
+}
