@@ -45,7 +45,6 @@
   }
   
   #testimonial-section .container .box1 .stars i {
-    /* color: gold; */
     font-size: 20px;
   }
   
@@ -100,6 +99,7 @@
     width: 33%;
     height: auto;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    padding: 10px;
   }
   
   #testimonial-section .container .box1 img {
@@ -139,12 +139,94 @@
 /* Styles for Tablets */
 @media screen and (max-width: 960px)
 {
+  #testimonial-section {
+    height: 500px;
+    padding-top: 80px;
+    margin-bottom: 180px;
+  }
   
+  #testimonial-section p.testimonialP {
+    font-size: 36px;
+    line-height: 41px;
+    margin-bottom: 60px;
+  }
+  
+  #testimonial-section .container {
+    gap: 8px;
+  }
+  
+  #testimonial-section .container .box1 {
+    width: 38%;
+    height: auto;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    padding: 5px;
+  }
+  
+  #testimonial-section .container .box1 img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  #testimonial-section .container .box1 .stars {
+    margin-bottom: 3px;
+  }
+
+  #testimonial-section .container .box1 .stars i {
+    font-size: 14px;
+  }
+  
+  #testimonial-section .container .box1 .starP {
+    font-size: 12px;
+    line-height: 22px;
+  }
 }
 
 
 /* Styles for Mobiles */
 @media screen and (max-width: 576px)
 {
+  #testimonial-section {
+    height: 400px;
+    padding-top: 60px;
+    margin-bottom: 200px;
+  }
+  
+  #testimonial-section p.testimonialP {
+    font-size: 32px;
+    line-height: 42px;
+    margin-bottom: 40px;
+  }
+  
+  #testimonial-section .container {
+    gap: 10px;
+  }
 
+  #testimonial-section .container .box1 .stars i {
+    font-size: 12px;
+  }
+  
+  #testimonial-section .container .box1 .starP {
+    font-size: 12px;
+    line-height: 22px;
+  }
+}
+
+
+/* Styles for Mobiles2 */
+@media screen and (max-width: 410px)
+{
+  
+  #testimonial-section p.testimonialP {
+    font-size: 30px;
+  }
+
+  #testimonial-section .container .box1 .stars i {
+    font-size: 10px;
+  }
+  
+  #testimonial-section .container .box1 .starP {
+    font-size: 10px;
+    line-height: 20px;
+  }
 }

@@ -2,7 +2,8 @@
 
 #hero-section
 {
-    background: linear-gradient(to bottom, #fdb9b9, white 100vh);
+  background: linear-gradient(to bottom, #fdb9b9, white 100vh);
+  /* background-image: url(''); */
 }
 .hero-content
 {
@@ -71,6 +72,10 @@ button:hover
   margin-top: 110px;
   margin-bottom: 160px;
 }
+.hero-img img 
+  {
+    content: url('../img/watchPic.png'); /* Change image source */
+  }
 
 
 /* Styles for smaller desktops */
@@ -82,7 +87,7 @@ button:hover
     }
     #hero-section .container
     {
-      max-width: 85%;
+      /* max-width: 85%; */
     }
     .hero-content .h6
     {
@@ -127,21 +132,172 @@ button:hover
 {
   .hero-content
   {
-    margin-top: 150px;
+    margin-top: 100px;
   }
   .hero-img
   {
-    margin-top: 30px;
+    margin-top: 0px;
     margin-bottom: 140px;
+  }
+}
+@media screen and (max-width: 991px)
+{
+  .hero-content
+  {
+    margin-top: 50px;
+  }
+  .hero-img
+  {
+    margin-top: 0px;
+    margin-bottom: 0px;
   }
 }
 /* Styles for Tablets */
 @media screen and (max-width: 960px)
 {
-  
+  .hero-content
+  {
+    margin-top: 60px;
+  }
+  .hero-content .h6
+  {
+    font-size: 35px;
+    line-height: 46px;
+    margin-bottom: 12px;
+  }
+  .hero-content p
+  {
+    font-size: 12px;
+    line-height: 23px;
+    margin-bottom: 12px;
+  }
+  .hero-content .shopNowBtn
+  {
+    padding: 12px 28px;
+    font-size: 10px;
+    line-height: 10px;
+  }
+  .line
+  {
+    width: 60px;
+    height: 2px;
+    border-bottom: 1px solid #333333;
+    margin-top: 60px;
+  }
+  .line.active
+  {
+    width: 60px;
+    height: 4px;
+    border-bottom: 2px solid #333333;
+    margin-top: 58.4px;
+    margin-bottom: 100px;
+  }
+  .hero-img
+  {
+    margin-top: 10px;
+    margin-bottom: 70px;
+  }
+}
+/* Styles for Tablets-2 */
+@media screen and (max-width: 767px)
+{
+  #hero-section
+  {
+    background-image: url('../img/watchPic2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    width: 100%; /* Ensures it takes full width */
+    height: 95vh; /* Adjust based on your layout */
+    padding: 0;
+    margin: 0;
+    opacity: 80%;
+  }
+  .hero-content
+  {
+    margin-top: 100px;
+    margin-bottom: 360px; 
+  }
+  .hero-content .h6
+  {
+    font-size: 35px;
+    line-height: 46px;
+    margin-bottom: 12px;
+    color: white;
+  }
+  .hero-content p
+  {
+    font-size: 12px;
+    line-height: 23px;
+    margin-bottom: 12px;
+    color: white;
+  }
+  .hero-content .shopNowBtn
+  {
+    padding: 12px 28px;
+    font-size: 10px;
+    line-height: 10px;
+    color: black;
+    border-color: white;
+    background-color: white;
+  }
+  .hero-content .shopNowBtn:hover
+  {
+    color: white;
+    border-color: black;
+    background-color: black;
+  }
+  .line
+  {
+    width: 60px;
+    height: 2px;
+    border-bottom: 1px solid white;
+    margin-top: 30px;
+  }
+  .line.active
+  {
+    width: 60px;
+    height: 4px;
+    border-bottom: 2px solid white;
+    margin-top: 28.4px;
+    margin-bottom: 100px;
+  }
+  .hero-img
+  {
+    margin-top: 30px;
+    margin-bottom: 70px;
+  }
+  .hero-img img 
+  {
+    display: none;
+  }
 }
 /* Styles for Mobiles */
 @media screen and (max-width: 576px)
 {
- 
+  #hero-section
+  {
+    height: 75vh; 
+    opacity: 100%;
+  }
+  .hero-content .h6
+  {
+    display: none;
+  }
+  .hero-content p
+  {
+    display: none;
+  }
+  .hero-content .shopNowBtn
+  {
+    display: none;
+  }
+  .line
+  {
+    display: none;
+  }
+  .line.active
+  {
+    display: none;
+  }
 }

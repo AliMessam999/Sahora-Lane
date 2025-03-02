@@ -61,11 +61,39 @@
 /* Styles for Tablets */
 @media screen and (max-width: 960px)
 {
-  
+  #productGallery .container .pgHeading
+  {
+    font-size: 36px;
+    line-height: 43px;
+  }
+  #productGallery .container .prgBtn
+  {
+    margin-top: 35px;
+    padding: 12px 28px;
+    font-size: 12px;
+    line-height: 13px;
+    margin-bottom: 128px;
+  }
 }
 
 /* Styles for Mobiles */
 @media screen and (max-width: 576px)
 {
-
+  #productGallery
+  {
+    padding: 20px;
+  }
+  #productGallery .container .pgHeading
+  {
+    font-size: 32px;
+    line-height: 42px;
+  }
+  #productGallery .container .prgBtn
+  {
+    margin-top: 35px;
+    padding: 12px 28px;
+    font-size: 12px;
+    line-height: 13px;
+    margin-bottom: 128px;
+  }
 }

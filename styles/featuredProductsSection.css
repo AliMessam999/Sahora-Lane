@@ -167,11 +167,160 @@
 /* Styles for Tablets */
 @media screen and (max-width: 960px)
 {
-  
+  #featured-products
+  {
+    height: auto;
+  }
+  #featured-products .container
+  {
+    padding-top: 45px;
+  }
+
+  #featured-products .container .row.row1 p
+  {
+    font-size: 36px;
+    line-height: 45px;
+    margin-bottom: 20px;
+    padding: 0;
+  }
+  #featured-products .container .row button.featuredProductsBtn
+  {
+    width: 135px;
+    height: 35px;
+    border-radius: 140px;
+    padding: 12px 23px;
+    font-size: 10px;
+    line-height: 10px;
+    margin-bottom: 20px;
+  }
+  #featured-products .container .row2 .firstCol p
+  {
+    font-size: 12px;
+    line-height: 18px;
+  }
+  #featured-products .container .row2 .firstCol p b
+  {
+    font-size: 12px;
+    line-height: 18px;
+  }
+  #featured-products .secondCol p
+  {
+    font-size: 12px;
+    line-height: 15px;
+  }
+  #featured-products .secondCol p b
+  {
+    font-size: 12px;
+    line-height: 18px;
+  }
+  .secondCol
+  {
+    /* height: 745px; */
+  } 
 }
 
+/* Styles for Tablets-2 */
+@media screen and (max-width: 767px)
+{
+  #featured-products .container .row2 .firstCol img
+  {
+    margin-top: 50px;
+    width: 80%;
+    height: auto;
+  }
+  #featured-products .container .row2 .firstCol p
+  {
+    font-size: 10px;
+    line-height: 16px;
+  }
+  #featured-products .container .row2 .firstCol p b
+  {
+    font-size: 10px;
+    line-height: 16px;
+  }
+  .secondCol
+  {
+    width: 80%;
+    margin: auto;
+  } 
+  #featured-products .secondCol p
+  {
+    font-size: 12px;
+    line-height: 15px;
+  }
+  #featured-products .secondCol p b
+  {
+    font-size: 12px;
+    line-height: 18px;
+  }
+}
 /* Styles for Mobiles */
 @media screen and (max-width: 576px)
 {
-
+  #featured-products .container .row2 .firstCol img
+  {
+    margin-top: 50px;
+    width: 80%;
+    height: auto;
+  }
+  #featured-products .container .row2 .firstCol p
+  {
+    font-size: 12px;
+    line-height: 16px;
+  }
+  #featured-products .container .row2 .firstCol p b
+  {
+    font-size: 12px;
+    line-height: 16px;
+  }
+  .secondCol
+  {
+    width: 80%;
+    margin: auto;
+  } 
+  #featured-products .secondCol p
+  {
+    font-size: 12px;
+    line-height: 15px;
+  }
+  #featured-products .secondCol p b
+  {
+    font-size: 12px;
+    line-height: 18px;
+  }
+}
+/* Styles for Mobiles2 */
+@media screen and (max-width: 398px)
+{
+  #featured-products .container .row2 .firstCol img
+  {
+    margin-top: 100px;
+    width: 80%;
+    height: auto;
+  }
+  #featured-products .container .row2 .firstCol p
+  {
+    font-size: 12px;
+    line-height: 16px;
+  }
+  #featured-products .container .row2 .firstCol p b
+  {
+    font-size: 12px;
+    line-height: 16px;
+  }
+  .secondCol
+  {
+    width: 80%;
+    margin: auto;
+  } 
+  #featured-products .secondCol p
+  {
+    font-size: 12px;
+    line-height: 15px;
+  }
+  #featured-products .secondCol p b
+  {
+    font-size: 12px;
+    line-height: 18px;
+  }
 }

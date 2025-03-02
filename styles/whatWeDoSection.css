@@ -12,9 +12,10 @@
   font-weight: 300;
   font-size: 40px;
   line-height: 44px;
+  margin-top: 40px;
   margin-bottom: 25px;
 }
-#whatWeDo p
+#whatWeDo p.wwDP
 {
   font-weight: 300;
   font-size: 16px;
@@ -94,7 +95,7 @@
   height: 57px;
   font-weight: 400;
   font-size: 16px;
-  line-height: 576px;
+  line-height: 57px;
   text-align: center;
   padding-top: 20px;
   margin-bottom: 34px;
@@ -105,7 +106,7 @@
   height: 57px;
   font-weight: 400;
   font-size: 16px;
-  line-height: 576px;
+  line-height: 57px;
   text-align: center;
   padding-top: 20px;
   margin-bottom: 34px;
@@ -116,7 +117,7 @@
   height: 57px;
   font-weight: 400;
   font-size: 16px;
-  line-height: 576px;
+  line-height: 57px;
   text-align: center;
   padding-top: 20px;
   margin-bottom: 34px;
@@ -127,10 +128,10 @@
   height: 57px;
   font-weight: 400;
   font-size: 16px;
-  line-height: 576px;
+  line-height: 57px;
   text-align: center;
   padding-top: 20px;
-  margin-bottom: 34px;
+  /* margin-bottom: 40px; */
 }
 .manual-container .btn
 {
@@ -150,6 +151,7 @@
   border-radius: 149px;
   border: none;
   background-color: #FDB9B9;
+  margin-top: 20px;
   /* margin-bottom: 120px; */
 }
 
@@ -162,7 +164,7 @@
     line-height: 47px;
     margin-bottom: 20px;
   }
-  #whatWeDo p
+  #whatWeDo p.wwDP
   {
     font-size: 14px;
     line-height: 25px;
@@ -217,24 +219,114 @@
 /* Styles for Tablets */
 @media screen and (max-width: 960px)
 {
-  #whatWeDo
+  #whatWeDo .h6
   {
-    
+    margin-top: 40px;
+    font-size: 36px;
+    line-height: 45px;
+    margin-bottom: 20px;
+  }
+  #whatWeDo p.wwDP
+  {
+    font-size: 14px;
+    line-height: 25px;
+    margin-bottom: 20px;
+  }
+  .products .product
+  {
+    max-width: 180px;
+    height: 130px; 
+  }
+  .product1 img
+  {
+    width: 50px;
+    height: 60px;
+  }
+  .product2 img
+  {
+    width: 35px;
+    height: 56px;
+  }
+  .product3 img
+  {
+    width: 50px;
+    height: 50px;
+  }
+  .product4 img
+  {
+    width: 36px;
+    height: 56px;
+  }
+  .products .productText
+  {
+    width: 180px;
+    height: 35px;
+    font-size: 10px;
+    margin-bottom: 30px;
+  }
+  .whatWeDoBtn
+  {
+    min-width: 138px;
+    height: 34px;
+    padding: 8px 21px;
+    font-size: 10px;
+    line-height: 10px;
   }
 }
 /* Styles for Mobiles */
 @media screen and (max-width: 576px)
 {
-
+  #whatWeDo .h6
+  {
+    font-size: 32px;
+    line-height: 42px;
+    margin-bottom: 20px;
+  }
+  #whatWeDo p.wwDP
+  {
+    font-size: 12px;
+    line-height: 23px;
+    margin-bottom: 20px;
+  }
+  .products .product
+  {
+    max-width: 180px;
+    height: 130px; 
+  }
+  .product1 img
+  {
+    width: 50px;
+    height: 60px;
+  }
+  .product2 img
+  {
+    width: 35px;
+    height: 56px;
+  }
+  .product3 img
+  {
+    width: 50px;
+    height: 50px;
+  }
+  .product4 img
+  {
+    width: 36px;
+    height: 56px;
+  }
+  .products .productText
+  {
+    width: 180px;
+    height: 35px;
+    font-size: 10px;
+    margin-bottom: 30px;
+  }
+  .whatWeDoBtn
+  {
+    min-width: 138px;
+    height: 34px;
+    padding: 8px 21px;
+    font-size: 10px;
+    line-height: 10px;
+  }
 }
 
-/* @media screen and (max-width: 960px) {
-  .products {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .products .product {
-    width: 90%; 
-  }
-} */

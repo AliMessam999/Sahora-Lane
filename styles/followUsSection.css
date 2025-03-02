@@ -54,11 +54,20 @@
   }
 }
 /* For TAblets */
-@media (max-width: 1440px) {
+@media (max-width: 960px) {
+  #followUS .followUsP { 
+    font-size: 36px;
+  }
   
+  #followUS .a {
+    font-size: 12px;
+    margin-bottom: 20px;
+  }
 }
   /* For Mobiles */
-@media (max-width: 1440px) {
-  
+@media (max-width: 570px) {
+  #followUS .followUsP { 
+    font-size: 32px;
+  }
 }
    

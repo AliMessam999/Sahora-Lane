@@ -47,6 +47,10 @@ header
     padding: 0; /* Ensures nav and badge are close but not overlapping */
     margin: 0;
   }
+  li.menu-icon
+  {
+    display: none;
+  }
   ul li a {
     color: black;
   }
@@ -105,12 +109,35 @@ header
 /* Styles for Tablets */
 @media screen and (max-width: 960px)
 {
-  header
+  .badge {
+    display: none;
+  }
+  li.simple-icon
   {
+    display: none;
+  }
+  li.menu-icon
+  {
+    display: block;
+    cursor: pointer;
+    padding-bottom: 20px;
+  }
+}
+
+/* Styles for Tablets2 */
+@media screen and (max-width: 767px)
+{
+  header .container
+  {
+    border-bottom: 0;
   }
 }
 /* Styles for Mobiles */
 @media screen and (max-width: 576px)
 {
-
+  li.menu-icon
+  {
+    padding-bottom: 20px;
+    margin-right: 5px;
+  }
 }

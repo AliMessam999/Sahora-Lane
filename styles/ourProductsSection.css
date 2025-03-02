@@ -109,11 +109,155 @@
 /* Styles for Tablets */
 @media screen and (max-width: 960px)
 {
-  }
+  #ourProducts
+  {
+    max-height: 300px;
+    /* padding-top: 20px; */
+    margin-bottom: 350px; /* Add this */
 
+    padding: 0 50px;
+    padding-top: 30px;
+    margin-bottom: 350px; /* Add this */
+  
+  }
+  #ourProducts .container p.heading
+  {
+    width: 100%;
+    font-size: 36px;
+    line-height: 44px;
+  }
+  #ourProducts .container .product
+  {
+    width: 33%;
+    height: 430px;
+    gap: 10px;
+    margin: 0;
+  }
+  #ourProducts .container .product p
+  {
+    font-size: 14px;
+    line-height: 18px;
+    margin: 0;
+    text-align: center;
+  }
+  #ourProducts .container .product p b
+  {
+    font-size: 14px;
+    line-height: 18px;
+  }
+  #ourProducts .container .exloreButton
+  {
+    margin-top: 0;
+    padding: 14px 30px;
+    font-size: 12px;
+    line-height: 13px;
+  }
+  #ourProducts .container .product img
+  {
+    width: 100%;
+    height: 330px;
+    margin-bottom: 10px;
+  }
+}
 
 /* Styles for Mobiles */
 @media screen and (max-width: 576px)
 {
+  #ourProducts
+  {
+    max-height: 300px;
+    /* padding-top: 20px; */
+    margin-bottom: 350px; /* Add this */
 
+    padding: 0 50px;
+    padding-top: 30px;
+    margin-bottom: 350px; /* Add this */
+  
+  }
+  #ourProducts .container p.heading
+  {
+    width: 100%;
+    font-size: 32px;
+    line-height: 42px;
+  }
+  #ourProducts .container .product
+  {
+    width: 33%;
+    height: 430px;
+    gap: 10px;
+    margin: 0;
+  }
+  #ourProducts .container .product p
+  {
+    font-size: 12px;
+    line-height: 18px;
+    margin: 0;
+    text-align: center;
+  }
+  #ourProducts .container .product p b
+  {
+    font-size: 12px;
+    line-height: 18px;
+  }
+  #ourProducts .container .exloreButton
+  {
+    margin-top: 0;
+    padding: 14px 30px;
+    font-size: 12px;
+    line-height: 13px;
+  }
+  #ourProducts .container .product img
+  {
+    width: 100%;
+    height: 330px;
+    margin-bottom: 10px;
+  }
+}
+
+
+/* Styles for Mobiles2 */
+@media screen and (max-width: 410px)
+{
+  #ourProducts
+  {
+    padding: 0 10px;
+    padding-top: 30px;
+    margin-bottom: 350px; /* Add this */
+    max-height: 200px;
+  }
+  #ourProducts .container p.heading
+  {
+    width: 100%;
+    font-size: 28px;
+    line-height: 40px;
+  }
+  #ourProducts .container .product
+  {
+    width: 33%;
+    height: 320px;
+  }
+  #ourProducts .container .product p
+  {
+    font-size: 10px;
+    line-height: 12px;
+    text-align: center;
+  }
+  #ourProducts .container .product p b
+  {
+    font-size: 10px;
+    line-height: 16px;
+  }
+  #ourProducts .container .exloreButton
+  {
+    margin-top: 0;
+    padding: 14px 30px;
+    font-size: 12px;
+    line-height: 13px;
+  }
+  #ourProducts .container .product img
+  {
+    width: 100%;
+    height: 230px;
+    margin-bottom: 10px;
+  }
 }
